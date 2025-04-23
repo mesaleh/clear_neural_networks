@@ -1,4 +1,3 @@
-# clear_neural_networks
 # Clear Neural Network Implementations
 
 Ilcome to the `clear_neural_nets` repository!
