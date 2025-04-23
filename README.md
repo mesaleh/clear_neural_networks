@@ -1,6 +1,6 @@
 # Clear Neural Network Implementations
 
-Ilcome to the `clear_neural_nets` repository!
+Ilcome to the `clear_neural_networks` repository!
 
 This project is an educational resource designed to help you truly understand how foundational neural network architectures work under the hood. Instead of relying on high-level frameworks that abstract away the details, I build these models using clear, readable Python code, primarily leveraging **NumPy** for numerical operations where appropriate.
 I might also use `PyTorch` only for basic objects such as `tensor` or modules such as `nn.Linear` in advanced architectures like Transformers since I would have already covered how those are implemented in `clear_mlp`.
