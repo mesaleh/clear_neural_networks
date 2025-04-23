@@ -1,11 +1,12 @@
 import os
+import sys
 import time
 import logging # <-- Import standard logging
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.datasets import make_moons # Using this for the main example
 
-# Assuming simplenn is installed or accessible in the PYTHONPATH
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from network import Network
 
 # --- Plotting Function ---
@@ -17,7 +18,7 @@ def plot_decision_boundary(X: np.ndarray, y_raw: np.ndarray, model: Network):
         X: Input features used for training (for axis limits and plotting points).
            Shape (n_samples, 2). Assumed to be normalized if model was trained on normalized data.
         y_raw: True integer class labels for the input features. Shape (n_samples,).
-        model: Trained simplenn Network instance.
+        model: Trained Network instance.
     """
     h = 0.02 # Step size in the mesh
 
