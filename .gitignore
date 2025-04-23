@@ -1,0 +1,6 @@
+**/*.pyc
+**/*.log
+__pycache__/
+*.npz
+.vscode/
+.venv/
