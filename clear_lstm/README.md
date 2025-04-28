@@ -113,11 +113,6 @@ The stock prediction example (`example_predict_stock.py`) trains the LSTM to pre
 ![Stock Prediction Results](imgs/stock_prediction_result.png)
 *(Plot showing actual vs. predicted stock prices for evaluation data)*
 
-**Interpretation:**
-*   The model often learns to **follow the general trend** of the actual prices, which is better than random guessing or a flat line.
-*   However, predictions frequently **lag** behind the actual price movements. This indicates the model has primarily learned persistence (predicting tomorrow will be similar to today) rather than truly predictive leading signals.
-*   This highlights the inherent difficulty of stock market prediction, especially with limited features (only closing price) and data. Achieving genuinely useful predictive power requires much more sophisticated feature engineering, potentially more complex models, larger datasets, and rigorous validation. Transformers can do a better job here, but let's leave that for the upcoming part of the series when we implement Transformers from scratch!
-
 ## Diving Deeper & Next Steps
 
 Experiment with the code!
