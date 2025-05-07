@@ -29,8 +29,8 @@ The name "Clear" emphasizes:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/YOUR_USERNAME/clear_neural_nets.git
-    cd clear_neural_nets
+    git clone https://github.com/mesaleh/clear_neural_networks.git
+    cd clear_neural_networks
     ```
 2.  **Install dependencies:**
     I aim for minimal dependencies, but you will need `numpy`, `matplotlib` (for plotting), `scikit-learn` (for datasets), and maybe `PyTorch` in the future, not to use it for full implementation but for just getting basic objects out of the way.
@@ -48,7 +48,7 @@ This repository is organized as a monorepo, with each neural network architectur
 ├── requirements.txt <-- Project dependencies
 ├── clear_mlp/ <-- Files for the Multi-Layer Perceptron implementation
 │ └── basic_usage.py 
-├── clear_rnn/ <-- (Future) Files for a Recurrent Neural Network
+├── clear_rnn/ <-- Files for a Recurrent Neural Network
 ├── clear_transformer/ <-- (Future) Files for a Transformer
 ```
 
